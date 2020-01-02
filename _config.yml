@@ -1,6 +1,7 @@
 name: DECODEJS
 description: Trình giải mã JavaScript
 version: 1.3.0
+baseurl: ""
 author: Nam Trường
 author_email: hi@duongnamtruong.com
 url: https://laptrinhbanthan.com/de4js
