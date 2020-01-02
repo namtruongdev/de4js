@@ -2,9 +2,15 @@
 <html lang="{{ site.lang | default: 'vi-VN' }}">
 
 <head>
-<meta property="og:type" content="website" />
+    <title>DECODEJS - Lập Trình Bản Thân</title>
+    <link rel="canonical" hreflang="vi" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+    <meta property="og:type" content="website" />
+    <meta http-equiv="cache-control" content="public">
+    <meta http-equiv="expires" content="86400">
+    <meta content="INDEX,FOLLOW" name="robots">
     <meta property="og:image" content="https://laptrinhbanthan.com/de4js/decodejs-lap-trinh-ban-than.jpg" />
     <meta charset='utf-8'>
+    <meta name="description" content="{{ site.description }}">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="favicon.ico">
@@ -12,7 +18,24 @@
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&amp;subset=latin-ext,vietnamese" rel="stylesheet">
     <link rel="stylesheet" href="https://laptrinhbanthan.com/de4js/assets/css/style.css">
-    {% seo %}
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:title" content="{{ site.name | xml_escape }}" />
+    <meta property="og:description" content="{{ site.description | xml_escape | truncate: 160 }}" />
+        <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="fb:app_id" content="174766196750045" />
+    <meta property="fb:pages" content="838885076296704" />
+
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="{{ site.name }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:site" content="@lonely_baby99" />
+    <meta name="twitter:creator" content="@lonely_baby99">
+    <meta name="twitter:card" content="summary">
+
+    <script type="application/ld+json">
+{"@type":"WebSite","url":"https://laptrinhbanthan.com/de4js/","name":"DECODEJS","headline":"DECODEJS - Lập Trình Bản Thân","author":{"@type":"Person","name":"Nam Trường"},"description":"Trình giải mã JavaScript","@context":"https://schema.org"}</script>
 </head>
 
 <body>
