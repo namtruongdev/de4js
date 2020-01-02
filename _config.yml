@@ -12,6 +12,7 @@ show_downloads: false
 google_analytics: UA-123121912-5
 facebook:
   app_id: 174766196750045
+  title: DECODEJS
 sass:
   style: compressed
 
