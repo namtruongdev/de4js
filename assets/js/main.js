@@ -103,7 +103,7 @@
             if (source === '') return;
 
             if (!workerFormat) {
-                workerFormat = new Worker('{{ "/assets/js/worker/format.js" | absolute_url }}');
+                workerFormat = new Worker('https://laptrinhbanthan.com/de4js/assets/js/worker/format.js');
                 workerFormat.addEventListener('message', function (e) {
                     view.innerHTML = e.data;
                     externalPreview(e.data);
@@ -160,7 +160,7 @@
             }
 
             if (!workerDecode) {
-                workerDecode = new Worker('{{ "/assets/js/worker/decode.js" | absolute_url }}');
+                workerDecode = new Worker('https://laptrinhbanthan.com/de4js/assets/js/worker/decode.js');
                 workerDecode.addEventListener('message', function (e) {
                     output.value = e.data;
 
